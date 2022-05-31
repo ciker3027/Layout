@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
-body{
+body {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     color: #ffffff;
-    font-family: 'Amatic sc', sans-serif;
-
+    font-family: 'amatic sc', sans-serif;
 }
 
 .wrapper {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194);
+    background: linear-gradient(-45deg, #780856fb, #08781b, #a54c4c, #a11f85);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: backgroundTransition 8s ease-in-out infinite;
-
 }
 
 h1 {
@@ -29,6 +27,11 @@ h1 {
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+.social-media {
+    margin-top: 1rem;
+    display: flex;
 }
 
 a {
@@ -45,7 +48,7 @@ a {
 }
 
 a:hover {
-    color: #085078;
+    color: #3e7808;
     background-color: #ffffff;
 }
 
